@@ -1,11 +1,11 @@
 {
-    "name": "thomaspark/bootswatch",
+    "name": "hyvanmielenpelit/bootswatch",
     "description": "Themes for Bootstrap",
     "license": "MIT",
     "authors": [
         {
-            "name": "thomaspark",
-            "email": "thomas@bootswatch.com"
+            "name": "TommiGustafsson-HMP",
+            "email": "tommi.gustafsson@hyvanmielenpelit.fi"
         }
     ],
     "type": "component",
