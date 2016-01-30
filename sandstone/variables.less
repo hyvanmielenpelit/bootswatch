@@ -31,7 +31,7 @@
 @text-color:            #3E3F3A;
 
 //** Global textual link color.
-@link-color:            @brand-success;
+@link-color:            darken(@brand-success, 5%);
 //** Link hover color set via `darken()` function.
 @link-hover-color:      darken(@link-color, 10%);
 //** Link hover decoration.
@@ -395,7 +395,7 @@
 @navbar-inverse-border:                     @brand-success;
 
 // Inverted navbar links
-@navbar-inverse-link-color:                 darken(@brand-success, 15%);
+@navbar-inverse-link-color:                 darken(@brand-success, 30%);
 @navbar-inverse-link-hover-color:           #fff;
 @navbar-inverse-link-hover-bg:              transparent;
 @navbar-inverse-link-active-color:          @navbar-inverse-link-hover-color;
@@ -496,7 +496,7 @@
 //
 //## Define colors for form feedback states and, by default, alerts.
 
-@state-success-text:             @brand-success;
+@state-success-text:             @link-color;
 @state-success-bg:               #dff0d8;
 @state-success-border:           darken(spin(@state-success-bg, -10), 5%);
 
